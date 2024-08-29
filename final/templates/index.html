@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Mention and Confess
+{% endblock %}
+
+{% block main %}
+    <h1>Menfess Site</h1>
+    <h2>Latest Menfesses:</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>From</th>
+                <th>To</th>
+                <th>Message</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- TODO: Loop through the database entries to display them in this table -->
+            {% for id in database %}
+                <tr>
+                    <td>{{id.sender}}</td>
+                    <td>{{id.mention}}</td>
+                    <td>{{id.message}}</td>
+                    <td>{{id.time}}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

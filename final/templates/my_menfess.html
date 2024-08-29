@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Mention and Confess
+{% endblock %}
+
+{% block main %}
+    <h1>My Menfess(es)</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>From</th>
+                <th>To</th>
+                <th>Message</th>
+                <th>Time</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- TODO: Loop through the database entries to display them in this table -->
+            {% for id in database %}
+                <tr>
+                    <td>{{id.sender}}</td>
+                    <td>{{id.mention}}</td>
+                    <td>{{id.message}}</td>
+                    <td>{{id.time}}</td>
+                    <td><form action="/delete" method="post"><button class="btn btn-primary" style="background-color: #E3242B" type="submit" name="id" value="{{id.menfess_id}}">Delete</button></form></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
