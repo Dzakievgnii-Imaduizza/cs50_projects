@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: it runs the fastest in sorting the sorted file but always slower than sort2 in sorting the reversed and ramdon
+
+sort2 uses: merge sort
+
+How do you know?: it runs the fastest in sorting the reversed and random file but it is slower than sort1 in sorting the sorted file
+
+sort3 uses: selection sort
+
+How do you know?: it runs the slowest in sorting the sorted file
