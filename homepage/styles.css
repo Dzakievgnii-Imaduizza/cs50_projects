@@ -1,0 +1,65 @@
+.header {
+    background-color: #477bff;
+    color: #fff;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.menubar{
+    background-color: #000000;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+}
+.menubutton {
+    color: #000000;
+    background-color: #FFFFFF;
+    padding top: 0.1rem;
+    padding-botom: 0.1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 0.25rem;
+    margin-left: 2rem;
+    margin-right:2rem;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.sections {
+    background-color: #477bff;
+    color: #fff;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+.sections2 {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.body {
+    background-color: #000000;
+    color: #fff;
+}
+
+.aboutustitle {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.aboutusp {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+input {
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+}
